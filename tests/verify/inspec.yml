@@ -1,0 +1,14 @@
+---
+
+    name: terraform-aws-vm-test
+    title: Tests for EC2 aws
+    maintainer: maintainer@terraform.com
+    copyright: maintainer@terraform.com
+    copyright_email: maintainer@terraform.com
+    summary: summary
+    version: 0.1.0
+    depends:
+      - name: inspec-aws
+        url: https://github.com/inspec/inspec-aws/archive/v1.7.1.tar.gz
+    supports:
+      - platform: aws
